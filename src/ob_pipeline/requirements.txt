@@ -1,0 +1,13 @@
+pytorch==1.4.0
+torchvision==0.5.0
+pandas==1.1.5
+scipy==1.4.1
+scikit-learn==0.24.1
+nibabel==3.2.1
+numpy==1.19.5
+scikit-image==0.17.2
+nilearn=0.7.1
+h5py==2.10.0
+matplotlib==3.3.4
+pyyaml==5.4.1
+

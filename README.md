@@ -1,6 +1,6 @@
 # olfactory bulb segmentation pipeline
 
-This repository contains a Nipype wrapper for the olfactory bulb segmentation tool or T2 weighted images available at [/Deep-MI/olf-bulb-segmentation](https://github.com/Deep-MI/olf-bulb-segmentation). 
+This repository contains a Nipype wrapper for the olfactory bulb segmentation tool for T2 weighted images available at [/Deep-MI/olf-bulb-segmentation](https://github.com/Deep-MI/olf-bulb-segmentation). 
 
 If you use this wrapper please cite:
 

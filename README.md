@@ -1,5 +1,20 @@
 # olfactory bulb segmentation pipeline
-Olfactory bulb segmentation pipeline for T2 weighted images
+
+This repository contains a Nipype wrapper for the olfactory bulb segmentation tool for T2 weighted images available at [/Deep-MI/olf-bulb-segmentation](https://github.com/Deep-MI/olf-bulb-segmentation). 
+
+If you use this wrapper please cite:
+
+Estrada, Santiago, et al. "Automated olfactory bulb segmentation on high resolutional T2-weighted MRI." NeuroImage (2021). https://doi.org/10.1016/j.neuroimage.2021.118464
+```
+@article{estrada2021automated,
+  title={Automated Olfactory Bulb Segmentation on High Resolutional T2-Weighted MRI},
+  author={Estrada, Santiago and Lu, Ran and Diers, Kersten and Zeng, Weiyi and Ehses, Philipp and St{\"o}cker, Tony and Breteler, Monique MB and Reuter, Martin},
+  journal={NeuroImage},
+  pages={118464},
+  year={2021},
+  publisher={Elsevier}
+}
+```
 
 ## Build docker image
 
@@ -8,7 +23,7 @@ Olfactory bulb segmentation pipeline for T2 weighted images
 nvidia-docker build -t ob_pipeline -f docker/Dockerfile .
 
 
-```
+
 
 ## Or pull from docker hub
 

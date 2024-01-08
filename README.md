@@ -48,7 +48,7 @@ The pipeline can be run with docker by running the container as follows:
         --subjects test_subject_01 \
         -w /work \
         -o /output \ 
-        -p 4 -t 2
+        -p 4 -g 1 -gp 1 
 
 ```
 
@@ -76,7 +76,7 @@ singularity run --nv -B /path/to/inputdata:/input \
                       -s /input \
                       -w /work \
                       -o /output \ 
-                      -p 4 -t 2 -g 1 -gp 1"
+                      -p 4 -g 1 -gp 1"
 ```
 
 
